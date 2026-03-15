@@ -1,4 +1,4 @@
-import { SlideWrapper, SpeakerNote } from './SlideComponents';
+import { SlideWrapper } from './SlideComponents';
 
 const SlideClosing = () => (
   <SlideWrapper>
@@ -13,9 +13,6 @@ const SlideClosing = () => (
       <span>@velocitylse</span>
       <span>lsebuild.com</span>
     </div>
-    <SpeakerNote>
-      Closing remarks. Thank participants, judges, sponsors. Goodnight!
-    </SpeakerNote>
   </SlideWrapper>
 );
 

@@ -1,4 +1,4 @@
-import { SlideWrapper, Badge, SpeakerNote } from './SlideComponents';
+import { SlideWrapper, Badge } from './SlideComponents';
 
 const SlideHacking = () => (
   <SlideWrapper>
@@ -12,9 +12,6 @@ const SlideHacking = () => (
         <div>DEADLINE <span className="text-foreground">8:00 PM</span></div>
       </div>
     </div>
-    <SpeakerNote>
-      Hacking session is live. Announce 30-minute mark at 7:30 PM. Announce 15-minute mark at 7:45 PM.
-    </SpeakerNote>
   </SlideWrapper>
 );
 

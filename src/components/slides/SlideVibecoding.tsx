@@ -1,4 +1,4 @@
-import { SlideWrapper, Badge, SpeakerNote } from './SlideComponents';
+import { SlideWrapper, Badge } from './SlideComponents';
 
 const SlideVibecoding = () => (
   <SlideWrapper>
@@ -10,9 +10,6 @@ const SlideVibecoding = () => (
     <p className="text-2xl text-muted-foreground mt-4 max-w-3xl">
       Build apps by describing what you want to tools like Lovable and Cursor. This is how you ship in 2.5 hours.
     </p>
-    <SpeakerNote>
-      Stan speech — the HR side of things. Then transition into explaining the format.
-    </SpeakerNote>
   </SlideWrapper>
 );
 

@@ -1,4 +1,4 @@
-import { SlideWrapper, SpeakerNote } from './SlideComponents';
+import { SlideWrapper } from './SlideComponents';
 
 const SlideJudges = () => (
   <SlideWrapper>
@@ -14,9 +14,6 @@ const SlideJudges = () => (
         </div>
       ))}
     </div>
-    <SpeakerNote>
-      Announcement and thanks to the judges for their attendance and participation. 8:00–8:10 PM: finalist team selection.
-    </SpeakerNote>
   </SlideWrapper>
 );
 
