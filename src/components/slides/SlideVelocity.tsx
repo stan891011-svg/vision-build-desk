@@ -10,9 +10,9 @@ const SlideVelocity = () =>
     <p className="text-2xl text-muted-foreground max-w-2xl">
       LSE's first AI product-building society. We help students from <span className="text-foreground font-bold">any discipline</span> build real products using AI.
     </p>
-    <p className="text-xl text-muted-foreground mt-4 max-w-2xl">Co-hosts of LSE BUILD, showing what's possible when ambition meets the right tools.
-
-  </p>
+    <p className="text-xl text-muted-foreground mt-4 max-w-2xl">
+      Co-hosts and organisers of LSE BUILD, showing what's possible when ambition meets the right tools.
+    </p>
   </SlideWrapper>;
 
 
