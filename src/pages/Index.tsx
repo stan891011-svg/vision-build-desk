@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import { AnimatePresence } from 'framer-motion';
 import { motion } from 'framer-motion';
+import SlideAgenda from '@/components/slides/SlideAgenda';
 import SlideTitle from '@/components/slides/SlideTitle';
 import SlideVelocity from '@/components/slides/SlideVelocity';
 import SlideLovable from '@/components/slides/SlideLovable';
@@ -19,6 +20,7 @@ import SlideAwards from '@/components/slides/SlideAwards';
 import SlideClosing from '@/components/slides/SlideClosing';
 
 const slides = [
+  <SlideAgenda />,
   <SlideTitle />,
   <SlideVelocity />,
   <SlideLovable />,
