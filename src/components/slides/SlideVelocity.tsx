@@ -1,8 +1,7 @@
-import { SlideWrapper, TimeBadge, SpeakerNote } from './SlideComponents';
+import { SlideWrapper, SpeakerNote } from './SlideComponents';
 
 const SlideVelocity = () => (
   <SlideWrapper>
-    <TimeBadge time="8:10 PM" />
     <h2 className="text-7xl font-black mb-8 tracking-brutal">Velocity</h2>
     <p className="text-3xl text-muted-foreground max-w-3xl leading-relaxed">
       LSE's first AI product-building society. We help students from <span className="text-foreground font-bold">any discipline</span> build real products using AI.

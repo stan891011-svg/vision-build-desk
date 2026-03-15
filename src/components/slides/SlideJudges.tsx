@@ -1,8 +1,7 @@
-import { SlideWrapper, TimeBadge, SpeakerNote } from './SlideComponents';
+import { SlideWrapper, SpeakerNote } from './SlideComponents';
 
 const SlideJudges = () => (
   <SlideWrapper>
-    <TimeBadge time="8:10 PM — Judging & Demos begin" />
     <h2 className="text-6xl font-black mb-16 tracking-brutal">The Judges</h2>
     <div className="grid grid-cols-3 gap-12">
       {[1, 2, 3].map(i => (

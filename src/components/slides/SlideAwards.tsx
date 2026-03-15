@@ -1,9 +1,8 @@
-import { SlideWrapper, TimeBadge, SpeakerNote } from './SlideComponents';
+import { SlideWrapper, SpeakerNote } from './SlideComponents';
 import { Trophy } from 'lucide-react';
 
 const SlideAwards = () => (
   <SlideWrapper>
-    <TimeBadge time="~8:50 PM — Awards Ceremony" />
     <h2 className="text-8xl font-black mb-16 tracking-brutal">AWARDS</h2>
     <div className="space-y-4">
       <div className="text-xl font-mono-brand text-muted-foreground uppercase mb-6">AI Track</div>
