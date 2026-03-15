@@ -17,7 +17,7 @@ const SlideTitle = () => (
     </div>
 
     {/* Partner logos top-right */}
-    <div className="absolute top-8 right-12 flex items-center gap-4">
+    <div className="absolute top-6 right-6 flex items-center gap-4">
       {[logoBase, logoHeadstart, logoBitget, logoEntrepreneurs].map((logo, i) => (
         <img key={i} src={logo} alt="" className="h-14 w-14 rounded-md object-cover" />
       ))}
