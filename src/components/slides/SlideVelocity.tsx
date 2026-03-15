@@ -11,7 +11,7 @@ const SlideVelocity = () => (
       LSE's first AI product-building society — helping students from <span className="text-foreground font-bold">any discipline</span> build real products using AI.
     </p>
     <p className="text-xl text-muted-foreground mt-4 max-w-2xl">
-      Co-founders and organisers of LSE BUILD, showing what's possible when ambition meets the right tools.
+      Co-hosts of LSE BUILD.
     </p>
   </SlideWrapper>
 );
