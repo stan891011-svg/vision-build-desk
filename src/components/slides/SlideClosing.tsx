@@ -23,11 +23,8 @@ const SlideClosing = () => (
     </div>
 
     <h2 className="text-7xl font-black mb-8 tracking-brutal">Goodnight.</h2>
-    <p className="text-2xl text-muted-foreground mb-8">
-      Thank you to <span className="text-foreground font-bold">Lovable</span>, <span className="text-foreground font-bold">Headstart</span>, <span className="text-foreground font-bold">Base</span>, and <span className="text-foreground font-bold">Bitget</span>.
-    </p>
-    <p className="text-xl text-muted-foreground mb-16">
-      Thank you to our co-hosts LSE Blockchain Society, all our judges, and every single participant.
+    <p className="text-2xl text-muted-foreground mb-16">
+      Thank you to our judges, partners, and every single participant.
     </p>
   </SlideWrapper>
 );
