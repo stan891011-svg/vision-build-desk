@@ -10,7 +10,7 @@ import logoLovable from '@/assets/logo-lovable-full.jpeg';
 const SlideTitle = () => (
   <SlideWrapper>
     {/* Velocity x Blockchain top-left */}
-    <div className="absolute top-6 left-6 flex items-center gap-4">
+    <div className="absolute top-4 left-4 flex items-center gap-3">
       <img src={logoVelocity} alt="Velocity" className="h-14 w-14 rounded-md object-cover" />
       <span className="text-muted-foreground font-mono-brand text-sm">×</span>
       <img src={logoBlockchain} alt="Blockchain Society" className="h-14 w-14 rounded-md object-cover" />
