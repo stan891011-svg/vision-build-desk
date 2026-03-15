@@ -23,7 +23,6 @@ const SlideTitle = () => (
       ))}
     </div>
 
-    <TimeBadge time="8:10 PM — Introduction begins" />
     <Badge>March 16, 2026</Badge>
     <h1 className="text-[10vw] font-black leading-[0.85] tracking-brutal mt-4 mb-6 text-balance">
       LSE <span className="text-primary">BUILD</span>
