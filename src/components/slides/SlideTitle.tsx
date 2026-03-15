@@ -31,7 +31,7 @@ const SlideTitle = () => (
       London's Premier Student AI Buildathon.
     </p>
     <p className="text-xl text-muted-foreground max-w-2xl mb-12">
-      Hosted by <span className="text-foreground font-semibold">Velocity x Blockchain</span>
+      Hosted by <span className="text-foreground font-semibold">Blockchain x Velocity</span>
     </p>
     <div className="flex items-center gap-6">
       <div className="h-px w-24 bg-border" />
