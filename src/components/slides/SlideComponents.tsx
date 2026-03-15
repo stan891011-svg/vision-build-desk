@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { ReactNode } from 'react';
+import slideBg from '@/assets/slide-bg.jpg';
 
 const transition = { duration: 0.4, ease: [0.16, 1, 0.3, 1] as [number, number, number, number] };
 
@@ -11,7 +12,10 @@ export const SlideWrapper = ({ children }: { children: ReactNode }) => (
     transition={transition}
     className="relative w-full h-full flex flex-col justify-center px-12 md:px-24"
   >
-    {children}
+    <img src={slideBg} alt="" className="absolute inset-0 w-full h-full object-cover opacity-30 pointer-events-none" />
+    <div className="relative z-10 flex flex-col justify-center h-full">
+      {children}
+    </div>
   </motion.div>
 );
 

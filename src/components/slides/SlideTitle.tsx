@@ -5,7 +5,7 @@ import logoEntrepreneurs from '@/assets/logo-entrepreneurs.jpeg';
 import logoBitget from '@/assets/logo-bitget-icon.jpeg';
 import logoVelocity from '@/assets/logo-velocity.jpeg';
 import logoBlockchain from '@/assets/logo-blockchain.jpeg';
-import logoLovable from '@/assets/logo-lovable.jpeg';
+import logoLovable from '@/assets/logo-lovable-full.jpeg';
 
 const SlideTitle = () => (
   <SlideWrapper>
@@ -39,8 +39,8 @@ const SlideTitle = () => (
     </p>
     <div className="flex items-center gap-6">
       <div className="h-px w-24 bg-border" />
-      <span className="text-sm font-mono-brand text-muted-foreground uppercase tracking-widest">Powered by</span>
-      <img src={logoLovable} alt="Lovable" className="h-10 rounded-md object-contain" />
+      <span className="text-lg font-mono-brand text-muted-foreground uppercase tracking-widest">Powered by</span>
+      <img src={logoLovable} alt="Lovable" className="h-16 rounded-lg object-contain" />
     </div>
   </SlideWrapper>
 );
