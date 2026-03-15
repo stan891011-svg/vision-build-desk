@@ -7,12 +7,6 @@ const SlideAwards = () => (
     <div className="grid grid-cols-2 gap-8">
       <div className="space-y-3">
         <div className="text-lg font-mono-brand text-muted-foreground uppercase mb-4">AI Track</div>
-        <div className="p-4 border-l-4 border-muted bg-secondary flex justify-between items-center">
-          <span className="text-xl font-bold uppercase">3rd Place</span>
-        </div>
-        <div className="p-4 border-l-4 border-muted bg-secondary flex justify-between items-center">
-          <span className="text-xl font-bold uppercase">2nd Place</span>
-        </div>
         <div className="p-4 border-l-4 border-primary bg-secondary flex justify-between items-center">
           <span className="text-xl font-bold uppercase">🏆 Winner</span>
           <Trophy className="text-primary w-5 h-5" />
@@ -20,12 +14,6 @@ const SlideAwards = () => (
       </div>
       <div className="space-y-3">
         <div className="text-lg font-mono-brand text-muted-foreground uppercase mb-4">Blockchain Track</div>
-        <div className="p-4 border-l-4 border-muted bg-secondary flex justify-between items-center">
-          <span className="text-xl font-bold uppercase">3rd Place</span>
-        </div>
-        <div className="p-4 border-l-4 border-muted bg-secondary flex justify-between items-center">
-          <span className="text-xl font-bold uppercase">2nd Place</span>
-        </div>
         <div className="p-4 border-l-4 border-primary bg-secondary flex justify-between items-center">
           <span className="text-xl font-bold uppercase">🏆 Winner</span>
           <Trophy className="text-primary w-5 h-5" />
