@@ -39,8 +39,8 @@ const SlideTitle = () => (
     </p>
     <div className="flex items-center gap-6">
       <div className="h-px w-24 bg-border" />
-      <span className="text-sm font-mono-brand text-muted-foreground uppercase tracking-widest">Powered by</span>
-      <img src={logoLovable} alt="Lovable" className="h-10 rounded-md object-contain" />
+      <span className="text-lg font-mono-brand text-muted-foreground uppercase tracking-widest">Powered by</span>
+      <img src={logoLovable} alt="Lovable" className="h-16 rounded-lg object-contain" />
     </div>
   </SlideWrapper>
 );
