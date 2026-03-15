@@ -26,6 +26,7 @@ const slides = [
   <SlideVelocity />,
   <SlideLovable />,
   <SlideBlockchain />,
+  <SlideEntrepreneurs />,
   <SlideHeadstart />,
   <SlideBase />,
   <SlideBitget />,

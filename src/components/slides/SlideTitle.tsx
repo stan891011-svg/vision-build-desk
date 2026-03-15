@@ -30,11 +30,8 @@ const SlideTitle = () => (
     <p className="text-2xl font-light text-muted-foreground max-w-2xl mb-2">
       London's Premier Student AI Buildathon.
     </p>
-    <p className="text-lg text-muted-foreground max-w-2xl mb-1">
+    <p className="text-xl text-muted-foreground max-w-2xl mb-12">
       Hosted by <span className="text-foreground font-semibold">Blockchain x Velocity</span>
-    </p>
-    <p className="text-lg text-muted-foreground max-w-2xl mb-12">
-      In Collaboration with <span className="text-foreground font-semibold">Entrepreneurs Society</span>
     </p>
     <div className="flex items-center gap-6">
       <div className="h-px w-24 bg-border" />
