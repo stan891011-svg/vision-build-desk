@@ -1,8 +1,7 @@
-import { SlideWrapper, TimeBadge, SpeakerNote } from './SlideComponents';
+import { SlideWrapper, SpeakerNote } from './SlideComponents';
 
 const SlideTeamUp = () => (
   <SlideWrapper>
-    <TimeBadge time="5 minutes to team up" />
     <h2 className="text-8xl font-black mb-8 tracking-brutal italic">TEAM UP</h2>
     <p className="text-3xl text-muted-foreground mb-12">
       5 minutes to find your squad. Solo is fine. <span className="text-foreground font-bold">Shipping is mandatory.</span>

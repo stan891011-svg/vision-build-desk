@@ -1,8 +1,7 @@
-import { SlideWrapper, TimeBadge, SpeakerNote } from './SlideComponents';
+import { SlideWrapper, SpeakerNote } from './SlideComponents';
 
 const SlideClosing = () => (
   <SlideWrapper>
-    <TimeBadge time="~9:00 PM — Closing" />
     <h2 className="text-7xl font-black mb-8 tracking-brutal">Goodnight.</h2>
     <p className="text-2xl text-muted-foreground mb-8">
       Thank you to <span className="text-foreground font-bold">Lovable</span>, <span className="text-foreground font-bold">Headstart</span>, <span className="text-foreground font-bold">Base</span>, and <span className="text-foreground font-bold">Bitget</span>.

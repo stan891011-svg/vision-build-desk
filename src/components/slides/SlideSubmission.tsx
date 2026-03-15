@@ -1,8 +1,7 @@
-import { SlideWrapper, TimeBadge, SpeakerNote } from './SlideComponents';
+import { SlideWrapper, SpeakerNote } from './SlideComponents';
 
 const SlideSubmission = () => (
   <SlideWrapper>
-    <TimeBadge time="7:50–8:00 PM — 10 minutes to submit" />
     <div className="bg-primary p-1 text-background mb-8 w-fit font-black px-4 text-lg">URGENT</div>
     <h2 className="text-8xl font-black mb-8 tracking-brutal">SUBMIT NOW</h2>
     <p className="text-3xl text-muted-foreground mb-12">The portal closes at <span className="text-foreground font-bold">8:00 PM</span>. No exceptions.</p>

@@ -1,8 +1,7 @@
-import { SlideWrapper, Badge, TimeBadge, SpeakerNote } from './SlideComponents';
+import { SlideWrapper, Badge, SpeakerNote } from './SlideComponents';
 
 const SlideLovable = () => (
   <SlideWrapper>
-    <TimeBadge time="8:10–8:30 PM" />
     <Badge>Title Sponsor</Badge>
     <div className="mt-8 text-[10vw] font-black tracking-brutal mb-8">LOVABLE</div>
     <p className="text-2xl text-muted-foreground max-w-2xl">

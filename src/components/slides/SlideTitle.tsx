@@ -1,4 +1,4 @@
-import { SlideWrapper, Badge, TimeBadge } from './SlideComponents';
+import { SlideWrapper, Badge } from './SlideComponents';
 import logoBase from '@/assets/logo-base.jpeg';
 import logoHeadstart from '@/assets/logo-headstart.jpeg';
 import logoEntrepreneurs from '@/assets/logo-entrepreneurs.jpeg';
