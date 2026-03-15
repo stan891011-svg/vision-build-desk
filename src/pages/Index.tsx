@@ -6,7 +6,7 @@ import SlideTitle from '@/components/slides/SlideTitle';
 import SlideVelocity from '@/components/slides/SlideVelocity';
 import SlideLovable from '@/components/slides/SlideLovable';
 import SlideBlockchain from '@/components/slides/SlideBlockchain';
-import SlideEntrepreneurs from '@/components/slides/SlideEntrepreneurs';
+
 import SlideHeadstart from '@/components/slides/SlideHeadstart';
 import SlideBase from '@/components/slides/SlideBase';
 import SlideBitget from '@/components/slides/SlideBitget';
@@ -26,7 +26,6 @@ const slides = [
   <SlideVelocity />,
   <SlideLovable />,
   <SlideBlockchain />,
-  <SlideEntrepreneurs />,
   <SlideHeadstart />,
   <SlideBase />,
   <SlideBitget />,
