@@ -9,7 +9,7 @@ const SlideTeamUp = () => (
     <div className="flex gap-12 items-end">
       <div>
         <div className="text-sm font-mono-brand text-muted-foreground uppercase mb-2">Hacking starts</div>
-        <div className="text-5xl font-mono-brand text-primary font-bold">5:40 PM</div>
+        <div className="text-5xl font-mono-brand text-primary font-bold">5:30 PM</div>
       </div>
       <div>
         <div className="text-sm font-mono-brand text-muted-foreground uppercase mb-2">Duration</div>
