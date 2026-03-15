@@ -4,13 +4,21 @@ import logoHeadstart from '@/assets/logo-headstart.jpeg';
 import logoEntrepreneurs from '@/assets/logo-entrepreneurs.jpeg';
 import logoBitget from '@/assets/logo-bitget-icon.jpeg';
 import logoVelocity from '@/assets/logo-velocity.jpeg';
+import logoBlockchain from '@/assets/logo-blockchain.jpeg';
 import logoLovable from '@/assets/logo-lovable.jpeg';
 
 const SlideTitle = () => (
   <SlideWrapper>
+    {/* Velocity x Blockchain top-left */}
+    <div className="absolute top-8 left-12 flex items-center gap-3">
+      <img src={logoVelocity} alt="Velocity" className="h-10 w-10 rounded-md object-cover" />
+      <span className="text-muted-foreground font-mono-brand text-sm">×</span>
+      <img src={logoBlockchain} alt="Blockchain Society" className="h-10 w-10 rounded-md object-cover" />
+    </div>
+
     {/* Partner logos top-right */}
     <div className="absolute top-8 right-12 flex items-center gap-3">
-      {[logoVelocity, logoBase, logoHeadstart, logoBitget, logoEntrepreneurs].map((logo, i) => (
+      {[logoBase, logoHeadstart, logoBitget, logoEntrepreneurs].map((logo, i) => (
         <img key={i} src={logo} alt="" className="h-10 w-10 rounded-md object-cover" />
       ))}
     </div>
