@@ -1,6 +1,4 @@
 import { SlideWrapper, Badge } from './SlideComponents';
-import logoVelocity from '@/assets/logo-velocity.jpeg';
-import logoBlockchain from '@/assets/logo-blockchain.jpeg';
 
 const agendaItems = [
   { time: '5:00 PM', title: 'Registration & Welcome', badge: 'DOORS OPEN', active: false },
