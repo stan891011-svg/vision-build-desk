@@ -1,19 +1,38 @@
-import { SlideWrapper, Badge, TimeBadge, SpeakerNote } from './SlideComponents';
+import { SlideWrapper, Badge, TimeBadge } from './SlideComponents';
+import logoBase from '@/assets/logo-base.jpeg';
+import logoHeadstart from '@/assets/logo-headstart.jpeg';
+import logoEntrepreneurs from '@/assets/logo-entrepreneurs.jpeg';
+import logoBitget from '@/assets/logo-bitget-icon.jpeg';
+import logoVelocity from '@/assets/logo-velocity.jpeg';
+import logoLovable from '@/assets/logo-lovable.jpeg';
 
 const SlideTitle = () => (
   <SlideWrapper>
+    {/* Partner logos top-right */}
+    <div className="absolute top-8 right-12 flex items-center gap-3">
+      {[logoVelocity, logoBase, logoHeadstart, logoBitget, logoEntrepreneurs].map((logo, i) => (
+        <img key={i} src={logo} alt="" className="h-10 w-10 rounded-md object-cover" />
+      ))}
+    </div>
+
     <TimeBadge time="8:10 PM — Introduction begins" />
     <Badge>March 16, 2026</Badge>
-    <h1 className="text-[10vw] font-black leading-[0.85] tracking-brutal mt-4 mb-8 text-balance">
+    <h1 className="text-[10vw] font-black leading-[0.85] tracking-brutal mt-4 mb-6 text-balance">
       LSE <span className="text-primary">BUILD</span>
     </h1>
-    <p className="text-2xl font-light text-muted-foreground max-w-2xl mb-12">
-      London's Premier Student AI Buildathon. Hosted by LSESU Velocity, LSE Generate, & LSE Blockchain Society.
+    <p className="text-2xl font-light text-muted-foreground max-w-2xl mb-2">
+      London's Premier Student AI Buildathon.
+    </p>
+    <p className="text-lg text-muted-foreground max-w-2xl mb-1">
+      Hosted by <span className="text-foreground font-semibold">Blockchain x Velocity</span>
+    </p>
+    <p className="text-lg text-muted-foreground max-w-2xl mb-12">
+      In Collaboration with <span className="text-foreground font-semibold">Entrepreneurs Society</span>
     </p>
     <div className="flex items-center gap-6">
       <div className="h-px w-24 bg-border" />
       <span className="text-sm font-mono-brand text-muted-foreground uppercase tracking-widest">Powered by</span>
-      <div className="px-4 py-2 bg-foreground text-background font-black text-xl tracking-brutal">LOVABLE</div>
+      <img src={logoLovable} alt="Lovable" className="h-10 rounded-md object-contain" />
     </div>
   </SlideWrapper>
 );
