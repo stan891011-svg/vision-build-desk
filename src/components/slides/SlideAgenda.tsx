@@ -3,7 +3,7 @@ import { SlideWrapper } from './SlideComponents';
 const agendaItems = [
   { time: '5:00 PM', title: 'Registration & Welcome', badge: 'DOORS OPEN', active: false },
   { time: '5:10 PM', title: 'Opening Ceremony & Team Formation', badge: 'KEYNOTES, PARTNER INTROS, TRACK BRIEFINGS', active: false },
-  { time: '5:40 PM', title: 'Hacking Session', badge: '2.5 HOURS TO SHIP', active: true },
+  { time: '5:30 PM', title: 'Hacking Session', badge: '2.5 HOURS TO SHIP', active: true },
   { time: '8:00 PM', title: 'Project Submission', badge: null, active: false },
   { time: '8:10 PM', title: 'Judging & Demos', badge: 'TOP TEAMS PRESENT', active: false },
   { time: '8:50 PM', title: 'Awards Ceremony & Closing', badge: null, active: false },

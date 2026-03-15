@@ -8,7 +8,7 @@ const SlideHacking = () => (
         GO <span className="text-primary">BUILD</span>
       </h2>
       <div className="flex justify-center gap-24 text-4xl font-mono-brand text-muted-foreground">
-        <div>START <span className="text-foreground">5:40 PM</span></div>
+        <div>START <span className="text-foreground">5:30 PM</span></div>
         <div>DEADLINE <span className="text-foreground">8:00 PM</span></div>
       </div>
     </div>
