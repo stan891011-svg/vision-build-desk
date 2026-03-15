@@ -13,7 +13,7 @@ const SlideTeamUp = () => (
       </div>
       <div>
         <div className="text-sm font-mono-brand text-muted-foreground uppercase mb-2">Duration</div>
-        <div className="text-5xl font-mono-brand text-foreground font-bold">2.5 HRS</div>
+        <div className="text-5xl font-mono-brand text-foreground font-bold">2H30</div>
       </div>
     </div>
   </SlideWrapper>
