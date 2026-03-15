@@ -20,45 +20,11 @@ const SlideAgenda = () => (
   <SlideWrapper>
     <div className="flex h-full items-center gap-8">
       {/* Left brand column — mirrors SlideTitle layout */}
-      <div className="flex flex-col justify-between w-[40%] shrink-0 py-8">
-        {/* Velocity x Blockchain */}
-        <div className="flex items-center gap-3">
-          <img src={logoVelocity} alt="Velocity" className="h-10 w-10 rounded-md object-cover" />
-          <span className="text-muted-foreground font-mono-brand text-sm">×</span>
-          <img src={logoBlockchain} alt="Blockchain Society" className="h-10 w-10 rounded-md object-cover" />
-        </div>
-
-        <div>
-          <Badge>March 16, 2026</Badge>
-          <h1 className="text-7xl font-black leading-[0.85] tracking-brutal mt-4 mb-6">
-            LSE <span className="text-primary">BUILD</span>
-          </h1>
-          <p className="text-lg font-light text-muted-foreground mb-3">
-            London's Premier Student AI Buildathon.
-          </p>
-          <p className="text-sm text-muted-foreground mb-1">
-            Hosted by <span className="text-foreground font-semibold">Blockchain x Velocity</span>
-          </p>
-          <p className="text-sm text-muted-foreground">
-            In Collaboration with <span className="text-foreground font-semibold">Entrepreneurs Society</span>
-          </p>
-        </div>
-
-        <div>
-          {/* Partner logos */}
-          <div className="flex items-center gap-3 mb-6">
-            {[logoBase, logoHeadstart, logoBitget, logoEntrepreneurs].map((logo, i) => (
-              <img key={i} src={logo} alt="" className="h-8 w-8 rounded-md object-cover" />
-            ))}
-          </div>
-
-          {/* Powered by Lovable */}
-          <div className="flex items-center gap-4">
-            <div className="h-px w-12 bg-border" />
-            <span className="text-xs font-mono-brand text-muted-foreground uppercase tracking-widest">Powered by</span>
-            <img src={logoLovable} alt="Lovable" className="h-10 rounded-lg object-contain" />
-          </div>
-        </div>
+      <div className="flex flex-col items-center justify-center w-[40%] shrink-0">
+        <Badge>March 16, 2026</Badge>
+        <h1 className="text-8xl font-black leading-[0.85] tracking-brutal mt-4">
+          LSE <span className="text-primary">BUILD</span>
+        </h1>
       </div>
 
       {/* Divider */}
