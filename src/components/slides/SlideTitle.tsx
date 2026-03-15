@@ -10,16 +10,16 @@ import logoLovable from '@/assets/logo-lovable-full.jpeg';
 const SlideTitle = () => (
   <SlideWrapper>
     {/* Velocity x Blockchain top-left */}
-    <div className="absolute top-8 left-12 flex items-center gap-3">
-      <img src={logoVelocity} alt="Velocity" className="h-10 w-10 rounded-md object-cover" />
+    <div className="absolute top-8 left-12 flex items-center gap-4">
+      <img src={logoVelocity} alt="Velocity" className="h-14 w-14 rounded-md object-cover" />
       <span className="text-muted-foreground font-mono-brand text-sm">×</span>
-      <img src={logoBlockchain} alt="Blockchain Society" className="h-10 w-10 rounded-md object-cover" />
+      <img src={logoBlockchain} alt="Blockchain Society" className="h-14 w-14 rounded-md object-cover" />
     </div>
 
     {/* Partner logos top-right */}
-    <div className="absolute top-8 right-12 flex items-center gap-3">
+    <div className="absolute top-8 right-12 flex items-center gap-4">
       {[logoBase, logoHeadstart, logoBitget, logoEntrepreneurs].map((logo, i) => (
-        <img key={i} src={logo} alt="" className="h-10 w-10 rounded-md object-cover" />
+        <img key={i} src={logo} alt="" className="h-14 w-14 rounded-md object-cover" />
       ))}
     </div>
 
@@ -31,7 +31,7 @@ const SlideTitle = () => (
       London's Premier Student AI Buildathon.
     </p>
     <p className="text-xl text-muted-foreground max-w-2xl mb-12">
-      Hosted by <span className="text-foreground font-semibold">Blockchain x Velocity</span>
+      Hosted by <span className="text-foreground font-semibold">Velocity x Blockchain</span>
     </p>
     <div className="flex items-center gap-6">
       <div className="h-px w-24 bg-border" />
