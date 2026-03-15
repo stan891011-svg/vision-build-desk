@@ -29,10 +29,6 @@ const SlideClosing = () => (
     <p className="text-xl text-muted-foreground mb-16">
       Thank you to our co-hosts LSE Blockchain Society, all our judges, and every single participant.
     </p>
-    <div className="flex gap-8 font-mono-brand text-sm uppercase tracking-widest text-muted-foreground">
-      <span>@velocitylse</span>
-      <span>lsebuild.com</span>
-    </div>
   </SlideWrapper>
 );
 
