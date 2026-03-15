@@ -29,7 +29,7 @@ const SlideJudges = () => (
     <div className="grid grid-cols-3 gap-12">
       {judges.map((judge, i) => (
         <div key={i} className="flex flex-col gap-4">
-          <div className="aspect-square bg-secondary border border-border rounded-full overflow-hidden grayscale hover:grayscale-0 transition-all duration-400 flex items-center justify-center">
+          <div className="aspect-square bg-secondary border border-border rounded-full overflow-hidden transition-all duration-400 flex items-center justify-center">
             {judge.photo ? (
               <img src={judge.photo} alt={judge.name} className="w-full h-full object-cover" />
             ) : (
