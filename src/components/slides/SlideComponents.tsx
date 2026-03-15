@@ -19,7 +19,8 @@ export const SlideWrapper = ({ children }: {children: ReactNode;}) =>
   </motion.div>;
 
 
-export const Badge = ({ children }: {children: ReactNode;}) => {};
+export const Badge = ({ children }: {children: ReactNode;}) =>
+  <span className="px-3 py-1 border border-primary/30 bg-primary/10 text-primary text-sm font-mono-brand uppercase tracking-widest rounded-full w-fit">{children}</span>;
 
 
 
