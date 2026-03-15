@@ -1,11 +1,6 @@
 import { SlideWrapper, Badge } from './SlideComponents';
-import logoBase from '@/assets/logo-base.jpeg';
-import logoHeadstart from '@/assets/logo-headstart.jpeg';
-import logoEntrepreneurs from '@/assets/logo-entrepreneurs.jpeg';
-import logoBitget from '@/assets/logo-bitget-icon.jpeg';
 import logoVelocity from '@/assets/logo-velocity.jpeg';
 import logoBlockchain from '@/assets/logo-blockchain.jpeg';
-import logoLovable from '@/assets/logo-lovable-full.jpeg';
 
 const agendaItems = [
   { time: '5:00 PM', title: 'Registration & Welcome', badge: 'DOORS OPEN', active: false },
