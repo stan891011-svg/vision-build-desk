@@ -1,4 +1,4 @@
-import { SlideWrapper, SpeakerNote } from './SlideComponents';
+import { SlideWrapper } from './SlideComponents';
 import { Trophy } from 'lucide-react';
 
 const SlideAwards = () => (
@@ -29,9 +29,6 @@ const SlideAwards = () => (
         <Trophy className="text-primary" />
       </div>
     </div>
-    <SpeakerNote>
-      Judges provide feedback for each demo. Announce 3rd, 2nd, 1st for AI, then 3rd, 2nd, 1st for Blockchain.
-    </SpeakerNote>
   </SlideWrapper>
 );
 

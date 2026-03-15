@@ -1,4 +1,4 @@
-import { SlideWrapper, SpeakerNote } from './SlideComponents';
+import { SlideWrapper } from './SlideComponents';
 import { Cpu, Zap } from 'lucide-react';
 
 const SlideTracks = () => (
@@ -20,9 +20,6 @@ const SlideTracks = () => (
         </p>
       </div>
     </div>
-    <SpeakerNote>
-      Each of the 6 teams (3 AI, 3 Blockchain) selected for demos will have 5 minutes to present. Direct AI questions to Yamin, blockchain questions to Kevin.
-    </SpeakerNote>
   </SlideWrapper>
 );
 

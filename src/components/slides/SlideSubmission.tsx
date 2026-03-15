@@ -1,4 +1,4 @@
-import { SlideWrapper, SpeakerNote } from './SlideComponents';
+import { SlideWrapper } from './SlideComponents';
 
 const SlideSubmission = () => (
   <SlideWrapper>
@@ -14,9 +14,6 @@ const SlideSubmission = () => (
         <div className="underline decoration-primary underline-offset-8 font-bold text-foreground">lsebuild.com/submit</div>
       </div>
     </div>
-    <SpeakerNote>
-      "FOR ALL PARTICIPANTS, YOU NOW HAVE 10 MINUTES TO SUBMIT." Have submission information on the screen. Submitted by 8 PM.
-    </SpeakerNote>
   </SlideWrapper>
 );
 

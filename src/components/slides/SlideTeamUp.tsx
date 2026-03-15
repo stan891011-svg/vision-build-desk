@@ -1,4 +1,4 @@
-import { SlideWrapper, SpeakerNote } from './SlideComponents';
+import { SlideWrapper } from './SlideComponents';
 
 const SlideTeamUp = () => (
   <SlideWrapper>
@@ -16,9 +16,6 @@ const SlideTeamUp = () => (
         <div className="text-5xl font-mono-brand text-foreground font-bold">2.5 HRS</div>
       </div>
     </div>
-    <SpeakerNote>
-      "Now we'll give you 5 minutes to find teammates, and then it's time to build!"
-    </SpeakerNote>
   </SlideWrapper>
 );
 
