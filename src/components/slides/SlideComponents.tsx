@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { ReactNode } from 'react';
 
-const transition = { duration: 0.4, ease: [0.16, 1, 0.3, 1] };
+const transition = { duration: 0.4, ease: [0.16, 1, 0.3, 1] as [number, number, number, number] };
 
 export const SlideWrapper = ({ children }: { children: ReactNode }) => (
   <motion.div
