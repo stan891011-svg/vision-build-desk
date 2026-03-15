@@ -14,14 +14,14 @@ const agendaItems = [
 const SlideAgenda = () => (
   <SlideWrapper>
     <div className="flex h-full items-center gap-8">
-      {/* Left brand column ~15% */}
-      <div className="flex flex-col items-center justify-center gap-6 w-[15%] shrink-0">
-        <img src={logoVelocity} alt="Velocity" className="w-20 h-20 rounded-xl object-cover" />
-        <span className="text-muted-foreground font-mono-brand text-2xl">×</span>
-        <img src={logoBlockchain} alt="Blockchain Society" className="w-20 h-20 rounded-xl object-cover" />
-        <div className="mt-4 text-center">
-          <div className="text-xs font-mono-brand text-muted-foreground uppercase tracking-widest">LSE</div>
-          <div className="text-2xl font-black tracking-brutal text-foreground">BUILD</div>
+      {/* Left brand column 40% */}
+      <div className="flex flex-col items-center justify-center gap-6 w-[40%] shrink-0">
+        <img src={logoVelocity} alt="Velocity" className="w-24 h-24 rounded-xl object-cover" />
+        <span className="text-muted-foreground font-mono-brand text-3xl">×</span>
+        <img src={logoBlockchain} alt="Blockchain Society" className="w-24 h-24 rounded-xl object-cover" />
+        <div className="mt-6 text-center">
+          <div className="text-sm font-mono-brand text-muted-foreground uppercase tracking-widest">LSE</div>
+          <div className="text-4xl font-black tracking-brutal text-foreground">BUILD</div>
         </div>
       </div>
 
