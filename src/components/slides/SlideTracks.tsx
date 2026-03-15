@@ -16,7 +16,7 @@ const SlideTracks = () => (
         <Zap className="w-12 h-12 text-primary mb-6" />
         <h3 className="text-3xl font-black mb-4">Blockchain</h3>
         <p className="text-muted-foreground text-lg leading-relaxed">
-          DeFi, quant systems, fintech, and Web3 tools on Base. Ask <span className="text-foreground font-bold">Kevin</span> for guidance.
+          DeFi, quant systems, fintech, and Web3 tools on Base. Ask <span className="text-foreground font-bold">Blockchain committee members</span> for guidance.
         </p>
       </div>
     </div>
