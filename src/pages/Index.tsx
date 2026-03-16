@@ -35,6 +35,7 @@ const slides = [
   <SlideTeamUp />,
   <SlideHacking />,
   <SlideSubmission />,
+  <SlideDeadline />,
   <SlideJudges />,
   <SlideDemos />,
   <SlideAwards />,
