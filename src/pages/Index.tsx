@@ -19,6 +19,7 @@ import SlideJudges from '@/components/slides/SlideJudges';
 import SlideDemos from '@/components/slides/SlideDemos';
 import SlideAwards from '@/components/slides/SlideAwards';
 import SlideClosing from '@/components/slides/SlideClosing';
+import SlideDeadline from '@/components/slides/SlideDeadline';
 
 const slides = [
   <SlideAgenda />,
@@ -34,6 +35,7 @@ const slides = [
   <SlideTeamUp />,
   <SlideHacking />,
   <SlideSubmission />,
+  <SlideDeadline />,
   <SlideJudges />,
   <SlideDemos />,
   <SlideAwards />,
